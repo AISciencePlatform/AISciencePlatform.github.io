@@ -20,8 +20,8 @@ const FeatureList = [
     description: (
       <>
         Definitions of (self) collision-avoidance constraints by means of the 
-        <a href="https://ieeexplore.ieee.org/document/8742769">VFI framework. </a> 
-        The constraints are implemented using geometric primitives on <a href="https://www.coppeliarobotics.com/">CoppeliaSim </a> 
+        <a href="https://ieeexplore.ieee.org/document/8742769" style= {{color:'#277148', fontWeight:'bold' }}>VFI framework. </a> 
+        The constraints are implemented using geometric primitives on <a href="https://www.coppeliarobotics.com/" style= {{color:'#277148', fontWeight:'bold' }}>CoppeliaSim </a> 
         and a configuration file.  
       </>
     ),
@@ -31,7 +31,7 @@ const FeatureList = [
     Svg: require('@site/static/img/isaacsim.svg').default,
     description: (
       <>
-        Digital twins implemented on <a href="https://developer.nvidia.com/isaac-sim">Nvidia Isaac Sim</a>. 
+        Digital twins implemented on <a href="https://developer.nvidia.com/isaac-sim" style= {{color:'#277148', fontWeight:'bold' }}>Nvidia Isaac Sim</a>. 
          Before using the real platform, operators can be trained using simulation examples of peg transfer tasks.
       </>
     ),
@@ -44,7 +44,8 @@ const FeatureList = [
         Available low level controllers on Python and C++ (including ROS packages) 
         for the robots, sensors, actuators, and grippers. 
         The robot modeling and control is implemented using the 
-        <a href="https://dqrobotics.github.io/"> DQ Robotics.</a>
+        <a href="https://dqrobotics.github.io/" style= {{color:'#277148', fontWeight:'bold' }}> DQ Robotics</a> library.
+        
       </>
     ),
   },
@@ -54,7 +55,7 @@ const FeatureList = [
     description: (
       <>
         Our long-term goal, part of the ambitious Moonshot Research & Development Program of the
-        <a href="https://www8.cao.go.jp/cstp/english/moonshot/top.html"> Cabinet Office of Japan </a> is,
+        <a href="https://www8.cao.go.jp/cstp/english/moonshot/top.html" style= {{color:'#277148', fontWeight:'bold' }}> Cabinet Office of Japan </a> is,
         by 2050 and beyond, have AI-robots that autonomously learn, adapt to their environment, 
         evolve in intelligence and act alongside human beings. 
       </>
