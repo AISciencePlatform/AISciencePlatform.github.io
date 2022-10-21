@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>Design and Validation of a Multi-Arm AI Platform for Scientific Exploration Blog</title>
+        <title>AI-Robot Platform for Scientific Exploration Blog</title>
         <link>https://aiscienceplatform.github.io/blog</link>
-        <description>Design and Validation of a Multi-Arm AI Platform for Scientific Exploration Blog</description>
+        <description>AI-Robot Platform for Scientific Exploration Blog</description>
         <lastBuildDate>Mon, 17 Oct 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
