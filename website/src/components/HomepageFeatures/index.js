@@ -20,7 +20,7 @@ const FeatureList = [
     description: (
       <>
         Definitions of (self) collision-avoidance constraints by means of the 
-        <a href="https://ieeexplore.ieee.org/document/8742769" style= {{color:'#277148', fontWeight:'bold' }}>VFI framework. </a> 
+        <a href="https://ieeexplore.ieee.org/document/8742769" style= {{color:'#277148', fontWeight:'bold' }}> VFI framework. </a> 
         The constraints are implemented using geometric primitives on <a href="https://www.coppeliarobotics.com/" style= {{color:'#277148', fontWeight:'bold' }}>CoppeliaSim </a> 
         and a configuration file.  
       </>

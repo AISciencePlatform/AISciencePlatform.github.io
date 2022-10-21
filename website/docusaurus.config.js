@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Design and Validation of a Multi-Arm AI Platform for Scientific Exploration',
+  title: 'AI-Robot Platform for Scientific Exploration',
   tagline: 'Murilo Marques Marinho, Juan José Quiroz-Omaña, and Kanako Harada.',
   url: 'https://aiscienceplatform.github.io/', 
   baseUrl: '/',
