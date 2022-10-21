@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'AISP: A Multi-Arm Science Platform for Artificial Intelligence Research',
+  title: 'Design and Validation of a Multi-Arm AI Platform for Scientific Exploration',
   tagline: 'Murilo Marques Marinho, Juan José Quiroz-Omaña, and Kanako Harada.',
   url: 'https://aiscienceplatform.github.io/', 
   baseUrl: '/',
@@ -92,15 +92,24 @@ const config = {
             ],
           },
           {
-            title: 'Other libraries',
+            title: 'Powered by',
             items: [
+          
+              {
+                label: 'SmartArmStack',
+                href: 'https://github.com/orgs/SmartArmStack/repositories',
+              },
               {
                 label: 'DQ Robotics',
                 href: 'https://dqrobotics.github.io/',
               },
               {
-                label: 'SmartArmStack',
-                href: 'https://github.com/orgs/SmartArmStack/repositories',
+                label: 'PyBind11',
+                href: 'https://github.com/pybind/pybind11',
+              },
+              {
+                label: 'Eigen',
+                href: 'https://eigen.tuxfamily.org/index.php?title=Main_Page',
               },
 
             ],
