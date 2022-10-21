@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aiscienceplatform.github.io/blog</id>
-    <title>AISP: A Multi-Arm Science Platform for Artificial Intelligence Research Blog</title>
+    <title>Design and Validation of a Multi-Arm AI Platform for Scientific Exploration Blog</title>
     <updated>2022-10-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aiscienceplatform.github.io/blog"/>
-    <subtitle>AISP: A Multi-Arm Science Platform for Artificial Intelligence Research Blog</subtitle>
+    <subtitle>Design and Validation of a Multi-Arm AI Platform for Scientific Exploration Blog</subtitle>
     <icon>https://aiscienceplatform.github.io/img/harada_lab_logo2.svg</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
