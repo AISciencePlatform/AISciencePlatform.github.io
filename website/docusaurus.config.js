@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'AISP: A Multi-Arm Science Platform for Artificial Intelligence Research',
   tagline: 'Murilo Marques Marinho, Juan José Quiroz-Omaña, and Kanako Harada.',
-  url: 'https://AISciencePlatform.github.io', 
+  url: 'https://aiscienceplatform.github.io/', 
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
