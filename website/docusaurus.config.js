@@ -89,6 +89,10 @@ const config = {
                 label: 'Get started',
                 to: '/docs/intro',
               },
+              {
+                label: 'Check our paper',
+                href: 'https://arxiv.org/abs/2210.11877',
+              },
             ],
           },
           {
