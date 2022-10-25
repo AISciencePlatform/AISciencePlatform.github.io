@@ -7,6 +7,12 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
 
+
+import FeatureDisplay from './citation.mdx';
+import MDXContent from '@theme/MDXContent';
+
+
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -21,6 +27,17 @@ function HomepageHeader() {
             Get started
           </Link>
         </div>  
+        
+        <details>
+        <summary>How to cite us</summary>
+        <div style={{textAlign: 'left'}}>
+          <MDXContent>
+             <FeatureDisplay />
+          </MDXContent>
+        </div>
+          
+        
+    </details>
       </div>
     </header>
   );
