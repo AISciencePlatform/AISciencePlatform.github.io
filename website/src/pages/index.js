@@ -11,6 +11,10 @@ import styles from './index.module.css';
 import FeatureDisplay from './citation.mdx';
 import MDXContent from '@theme/MDXContent';
 
+import CodeBlock from '@theme/CodeBlock';
+import MyComponentSource from '!!raw-loader!./citation.mdx';
+
+
 
 
 function HomepageHeader() {
@@ -28,17 +32,15 @@ function HomepageHeader() {
           </Link>
         </div>  
         
-        <details>
-        <summary>How to cite us</summary>
-        <div style={{textAlign: 'left'}}>
-          <MDXContent>
-             <FeatureDisplay />
-          </MDXContent>
-        </div>
+        <details open>
+          <summary>How to cite us</summary>
+          <div style={{textAlign: 'left'}}>
+          <CodeBlock language="css">{MyComponentSource}</CodeBlock>
+          </div>
+            
           
-        
-    </details>
-      </div>
+          </details>
+         </div>
     </header>
   );
 }
