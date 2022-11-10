@@ -32,14 +32,24 @@ function HomepageHeader() {
           </Link>
         </div>  
         
-        <details open>
+          <details open>
           <summary>How to cite us</summary>
-          <div style={{textAlign: 'left'}}>
+          <div style={{textAlign: 'left', fontSize: '10px'}}>
           <CodeBlock language="css">{MyComponentSource}</CodeBlock>
           </div>
-            
-          
           </details>
+
+          <details open>
+          <summary>Exhibition on IROS 2022</summary>
+
+          <iframe width="750" height="420"  src="https://www.youtube.com/embed/3JPSywPAdj4" 
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+          clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+
+       
+          </details>
+
          </div>
     </header>
   );
