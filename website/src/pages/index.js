@@ -42,10 +42,17 @@ function HomepageHeader() {
           <details open>
           <summary>Exhibition on IROS 2022</summary>
 
-          <iframe width="750" height="420"  src="https://www.youtube.com/embed/3JPSywPAdj4" 
-          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
-          clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-          </iframe>
+          <div className="video-responsive">
+              <iframe
+                width="853"
+                height="480"
+                src={`https://www.youtube.com/embed/3JPSywPAdj4`}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="Embedded youtube"
+              />
+          </div>
 
        
           </details>
