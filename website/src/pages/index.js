@@ -34,9 +34,15 @@ function HomepageHeader() {
         
           <details open>
           <summary>How to cite us</summary>
-          <div style={{textAlign: 'left', fontSize: '10px'}}>
+          <div style={{textAlign: 'left'}}>
+          Check out our paper at the 
+          <a href="https://arxiv.org/abs/1910.11612" style= {{color:'#ff6fa1', fontWeight:'bold' }}> ArXiv version. </a>
+          </div>
+          
+          <div style={{textAlign: 'left', fontSize: '12px'}}>
           <CodeBlock language="css">{MyComponentSource}</CodeBlock>
           </div>
+
           </details>
 
           <details open>
