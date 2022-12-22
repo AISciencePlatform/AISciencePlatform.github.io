@@ -36,7 +36,7 @@ function HomepageHeader() {
           <summary>How to cite us</summary>
           <div style={{textAlign: 'left'}}>
           Check out our paper at the 
-          <a href="https://arxiv.org/abs/1910.11612" style= {{color:'#ff6fa1', fontWeight:'bold' }}> ArXiv version. </a>
+          <a href="https://arxiv.org/abs/2210.11877" style= {{color:'#ff6fa1', fontWeight:'bold' }}> ArXiv version. </a>
           </div>
           
           <div style={{textAlign: 'left', fontSize: '12px'}}>
